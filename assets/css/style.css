@@ -1,0 +1,70 @@
+/*Rest */
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+html{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+
+}
+
+.text-white{
+    color: white;
+}
+
+.text-black{
+    color: black;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+#header{
+    background-color: black;
+    height: 46px;
+}
+
+#menu li{
+    position: relative;
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 20px;
+}
+#menu > li:hover > a,
+#menu .submenu li:hover a{
+    background-color:#ccc;
+    color: black;
+    display: block;
+}
+#menu li:hover .submenu{
+    display: block;
+}
+#menu .submenu{
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+#menu .submenu a{
+    color: black;
+}
+
+#slider{
+}
+#content{
+
+}
+#footer{
+
+}
